@@ -31,30 +31,33 @@
   );
 
   $book2 = new Book (
+    "Dieci cose da sapere sull'economia italiana prima che sia troppo tardi",
+    "Alan Friedman",
+    "Economia",
     "",
-    "",
-    "",
-    "",
-    "",
-    "",
+    "2018",
+    "9788822714190",
   );
 
   $book3 = new Book (
+    "1984",
+    "George Orwell",
+    "Romanzo",
     "",
-    "",
-    "",
-    "",
-    "",
-    "",
+    "1949",
+    "9788817154857",
   );
 
   $book4 = new Book (
+    "Manuale di sopravvivenza per UX designer",
+    "Matteo di Pascale",
+    "Manuale tecnico",
     "",
-    "",
-    "",
-    "",
-    "",
-    "",
+    "2019",
+    "9788820389192",
   );
+
+  // Pusho le istanze in un array
+  $books = [$book1, $book2, $book3, $book4];
 
 ?>
