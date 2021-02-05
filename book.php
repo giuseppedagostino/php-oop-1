@@ -14,9 +14,47 @@
       $this->title = $title;
       $this->author = $author;
       $this->genre = $genre;
-      $this->title = $title;
-      $this->title = $title;
+      $this->cover = $cover;
+      $this->publicaiton_year = $publicaiton_year;
+      $this->isbn_code = $isbn_code;
     }
   }
+
+  // Creo delle istanze della classe libro
+  $book1 = new Book (
+    "Padroni del destino",
+    "Richard Stengel",
+    "Biografie storiche",
+    "",
+    "2018",
+    "9788817102308",
+  );
+
+  $book2 = new Book (
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+  );
+
+  $book3 = new Book (
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+  );
+
+  $book4 = new Book (
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+  );
 
 ?>
