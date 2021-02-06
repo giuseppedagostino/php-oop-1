@@ -10,7 +10,7 @@
     public $isbn_code;
 
     // Inserisco la funzione construct
-    public function _construct($title,$author,$genre,$cover,$publication_year,$isbn_code) {
+    public function __construct($title,$author,$genre,$cover,$publication_year,$isbn_code) {
       $this->title = $title;
       $this->author = $author;
       $this->genre = $genre;

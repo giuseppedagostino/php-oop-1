@@ -7,5 +7,18 @@
 
 body {
   padding: 50px;
-  background-color: red;
+  background-color: lightgrey;
+}
+.container {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border: 2px solid black;
+}
+.book {
+  height: 285px;
+  width: 182px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid black;
 }

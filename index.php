@@ -16,6 +16,13 @@
 
 <body>
   <h1>php-oop-1</h1>
-  <?php var_dump($books); ?>
+  <div class="container">
+  <?php foreach($books as $key => $value): ?>
+    <div class="book">
+      <h2><?php $value->title; ?></h2>
+      <h2><?php $value->author; ?></h2>
+    </div>
+  <?php endforeach; ?>
+  </div>
 </body>
 </html>
