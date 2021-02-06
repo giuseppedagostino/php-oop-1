@@ -17,10 +17,9 @@
 <body>
   <h1>php-oop-1</h1>
   <div class="container">
-  <?php foreach($books as $key => $value): ?>
+  <?php foreach($books as $book): ?>
     <div class="book">
-      <h2><?php $value->title; ?></h2>
-      <h2><?php $value->author; ?></h2>
+      <?php var_dump($book) ?>
     </div>
   <?php endforeach; ?>
   </div>

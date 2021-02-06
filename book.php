@@ -5,17 +5,17 @@
     public $title;
     public $author;
     public $genre;
-    public $cover;
+    // public $cover;
     public $publication_year;
     public $isbn_code;
 
     // Inserisco la funzione construct
-    public function __construct($title,$author,$genre,$cover,$publication_year,$isbn_code) {
+    public function __construct($title,$author,$genre,$publication_year,$isbn_code) {
       $this->title = $title;
       $this->author = $author;
       $this->genre = $genre;
-      $this->cover = $cover;
-      $this->publicaiton_year = $publicaiton_year;
+      // $this->cover = $cover;
+      $this->publication_year = $publication_year;
       $this->isbn_code = $isbn_code;
     }
   }
@@ -25,8 +25,7 @@
     "Padroni del destino",
     "Richard Stengel",
     "Biografie storiche",
-    "",
-    "2018",
+    2018,
     "9788817102308",
   );
 
@@ -34,8 +33,7 @@
     "Dieci cose da sapere sull'economia italiana prima che sia troppo tardi",
     "Alan Friedman",
     "Economia",
-    "",
-    "2018",
+    2018,
     "9788822714190",
   );
 
@@ -43,8 +41,7 @@
     "1984",
     "George Orwell",
     "Romanzo",
-    "",
-    "1949",
+    1949,
     "9788817154857",
   );
 
@@ -52,8 +49,7 @@
     "Manuale di sopravvivenza per UX designer",
     "Matteo di Pascale",
     "Manuale tecnico",
-    "",
-    "2019",
+    2019,
     "9788820389192",
   );
 
