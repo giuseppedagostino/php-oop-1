@@ -15,15 +15,15 @@
 </head>
 
 <body>
-  <?php var_dump($books); ?>
   <h1>php-oop-1</h1>
   <div class="container">
     <?php foreach ($books as $key => $value): ?>
       <div class="book">
-        <h3><?= $value->title; ?></h3>
-        <h4><?= $value->author; ?></h4>
-        <h5><?= $value->author; ?></h5>
-        <h5><?= $value->author; ?></h5>
+        <h2><?= $value->title; ?></h2>
+        <h3><?= $value->author; ?></h3>
+        <h5><?= $value->genre; ?></h5>
+        <h5>Anno di pubblicazione: <?= $value->publication_year; ?></h5>
+        <h5>ISBN: <?= $value->isbn_code; ?></h5>
       </div>
     <?php endforeach; ?>
   </div>

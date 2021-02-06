@@ -5,7 +5,6 @@
     public $title;
     public $author;
     public $genre;
-    // public $cover;
     public $publication_year;
     public $isbn_code;
 
@@ -14,7 +13,6 @@
       $this->title = $title;
       $this->author = $author;
       $this->genre = $genre;
-      // $this->cover = $cover;
       $this->publication_year = $publication_year;
       $this->isbn_code = $isbn_code;
     }
